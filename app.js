@@ -69,7 +69,7 @@ $('#staticBackdrop').on('hidden.bs.modal', function () {
 
 let sketch = function(p) {
     p.setup = function(){
-        p.createCanvas(250, 250);
+        p.createCanvas(230, 230);
     }
     
     p.draw = function(){
@@ -78,12 +78,12 @@ let sketch = function(p) {
             p.clear();    
             p.noFill();
             p.beginShape();
-            p.vertex(10, 230);
-            p.vertex(30, 230);
+            p.vertex(10, 220);
+            p.vertex(30, 220);
             p.endShape();
 
             p.beginShape();
-            p.vertex(20, 230);
+            p.vertex(20, 220);
             p.vertex(20, 20);
             p.endShape();
         }
