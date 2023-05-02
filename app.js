@@ -1,6 +1,6 @@
 let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 let letters_arr = letters.split('');
-let words = ['computer', 'table', 'earpods', 'pencil', 'glass', 'button', 'paper', 'letter'];
+let words = ['computer', 'table', 'earpods', 'pencil', 'glass', 'button', 'paper', 'letter', 'fork', 'book'];
 let word_arr = words[Math.floor(Math.random() * 10)].toUpperCase().split('');
 display_letters();
 display_word();
@@ -30,7 +30,7 @@ letter_buttons.forEach(v=>{
 function display_letters(){
     let buttons='';
     letters_arr.forEach(v=>{
-        buttons+=`<button class='btn btn-primary my-2 mx-2 letter_button'>${v.toUpperCase()}</button>`;
+        buttons+=`<button class='btn btn-primary my-1 my-sm-2 mx-sm-2 mx-1 letter_button'>${v.toUpperCase()}</button>`;
     });
     document.querySelector("#letters").innerHTML=buttons;
 }
