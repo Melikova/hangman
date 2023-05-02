@@ -1,6 +1,6 @@
 let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 let letters_arr = letters.split('');
-let words = ['computer', 'dictionary', 'table', 'earpods', 'pencil', 'glass', 'button', 'automobile', 'paper', 'letter'];
+let words = ['computer', 'table', 'earpods', 'pencil', 'glass', 'button', 'paper', 'letter'];
 let word_arr = words[Math.floor(Math.random() * 10)].toUpperCase().split('');
 display_letters();
 display_word();
